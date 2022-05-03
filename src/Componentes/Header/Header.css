@@ -1,0 +1,40 @@
+
+.navbar {
+    height:100px;
+    background: linear-gradient(135deg ,rgb(17, 16, 16) 30%, rgb(114, 110, 110) 40%, rgb(17, 16, 16) 90%);
+}
+
+/* cor azul hex : rgb(15, 7, 128) */
+
+@media (min-width:525px) and (max-width:2000px){
+    .navbar{
+        height:50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:426px) and (max-width:525px){
+    .navbar{
+        height:50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:300px) and (max-width:425px){
+    .navbar{
+        height:50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-height:760px) and (max-height:900px){
+    .navbar{
+        height:50px;
+    }
+}
+
+@media (min-height:500px) and (max-height:760px){
+    .navbar{
+        height:50px;
+    }
+}
